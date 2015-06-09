@@ -1,12 +1,10 @@
 {
   "name": "collections",
   "main": "collections.min.js",
-  "version": "2.0.1",
+  "version": "1.2.3",
   "homepage": "http://www.collectionsjs.com/",
-  "authors": [
-    "montagejs"
-  ],
-  "description": "This package provides JavaScript implementations of common collections, with many useful features",
+  "author": "Kris Kowal <kris@cixar.com> (http://github.com/kriskowal)",
+  "description": "data structures with idiomatic JavaScript collection interfaces",
   "moduleType": [
     "globals"
   ],
@@ -21,12 +19,18 @@
     "heap",
     "iterator"
   ],
-  "license": "3-clause BSD license",
+  "license": "MIT",
   "ignore": [
-    "**/.*",
+    ".*",
+    "*.js",
+    "*.csv",
+    "minify",
+    "!collections.min.js",
+    "bench",
+    "demo",
     "node_modules",
     "bower_components",
-    "test",
-    "tests"
+    "listen",
+    "spec"
   ]
 }
